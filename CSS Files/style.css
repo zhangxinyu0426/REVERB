@@ -23,4 +23,136 @@ nav > div > img{
     padding: 5px;
 }
 
-.
+.Fenderblack {
+    width: 1200px;
+    height:426px;
+    object-fit:cover;
+    border-radius:60px;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top {
+    position: relative;
+    text-align: center;
+  }
+
+.name{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 202px;
+    text-align: start;
+
+}
+
+.series{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 202px;
+}
+
+.price{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 80px;
+    color: #FC7300;
+    position: absolute;
+    top: 230px;
+    left: 850px;
+}
+
+.heart{
+    max-width: 30px;
+    max-height: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.imageproduct{
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    left:70px;
+
+    
+}
+
+.nameorange{    
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top:632px;
+    left: 50px;
+}
+
+.priceorange{    
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top:680px;
+    left: 50px;
+}
+
+.nameorange{    
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top:632px;
+    left: 50px;
+}
+
+.priceorange{    
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top:680px;
+    left: 50px;
+}
+
+
+.nameyellow{    
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top:632px;
+    left: 50px;
+}
+
+.priceyellow{    
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top:680px;
+    left: 100px;
+}
+
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .product-card{
+      display: inline-block;
+      max-width: 450;
+      max: height 550px;
+      border-radius: 60px;
+      background-color: #000000;
+      opacity: 0.85;
+      float: left;
+      width: 25%;
+  }
