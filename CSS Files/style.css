@@ -246,7 +246,7 @@ nav > div > img{
     background-color:#000000;
     border-radius: 60px;
     width: 280px;
-    height: 580px;
+    height: 450px;
     margin: auto;
     position:relative;
     font-family:'Arial Black', Gadget, sans-serif;
@@ -254,7 +254,7 @@ nav > div > img{
 
 
   .guitar2{
-    max-width: 270px;
+    max-width: 300px;
     max-height: 270px;
     float: right;
     padding-right: 40px;
