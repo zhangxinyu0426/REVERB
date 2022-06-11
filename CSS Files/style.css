@@ -447,9 +447,6 @@ nav > div > img{
 
 
 
-
-
-
 .payment {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color:#000000;
@@ -607,7 +604,7 @@ nav > div > img{
     border-radius: 60px;
     width: 1200px;
     height: 800px;
-    position:absolute;
+    position:relative;
     top:10px; 
     left:80px;
     font-family:'Arial Black', Gadget, sans-serif;
@@ -655,12 +652,227 @@ nav > div > img{
     letter-spacing: 5px;
     padding: 10px 40px;
     border-radius: 14px;
-    position: relative;
+    position: absolute;
     top: 650px;
     left: 300px;
   }
 
 .checkoutpage{
   position: absolute;
+}
+
+
+
+
+
+.productpic{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:#000000;
+  border-radius: 60px;
+  width: 550px;
+  height: 800px;
+  position:absolute;
+  top:10px; 
+  left:80px;
+  font-family:'Arial Black', Gadget, sans-serif;
+  z-index:3;
+
+}
+
+.likep{
+  max-width: 50px;
+  max-height: 50px;
+  vertical-align: top;
+  padding-top: 20px;
+  padding-left: 90px;
+}
+
+.fenderproduct{
+  max-width: 670px;
+  max-height: 670px;
+  float: left;
+  padding-right: 40px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.namep{
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  top: 70px;
+  left: 80px;
+}
+
+.pricep{
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+
+.specp{
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 500px;
+  left: 300px;
+  line-height: 30px;
+}
+
+
+
+
+.productspec{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #1E1E1E;
+  border-radius: 60px;
+  width: 700px;
+  height: 800px;
+  position:absolute;
+  top:10px; 
+  left:80px;
+  font-family:'Arial Black', Gadget, sans-serif;
+  z-index:2;
+}
+
+tr{
+  color: white;
+  line-height: 35px;
+}
+
+.spectable{
+padding-top: 70px;
+padding-left: 70px;
+}
+
+
+
+
+.reviews{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:#242424;
+  border-radius: 60px;
+  width: 850px;
+  height: 800px;
+  position:absolute;
+  top:10px; 
+  left:80px;
+  font-family:'Arial Black', Gadget, sans-serif;
+  z-index:1;
+
+}
+
+.infotitle{
+  font-family:'Arial Black', Gadget, sans-serif;
+  font-size:20px;
+  color:#FEA500;
+}
+
+.infoinput{
+  font-family:'Arial', Gadget, sans-serif;
+  font-size:15px;
+  color:white;
+  padding-right: 160px;
+}
+
+.infodetail{
+  position: absolute;
+  padding-top: 80px;
+  padding-left: 70px
+  
+}
+
+.productpage{
+  position: absolute;
+}
+
+
+
+.detail1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:#000000;
+  border-radius: 60px;
+  width: 300px;
+  height: 550px;
+  position:absolute;
+  top:10px; 
+  left:1000px;
+  font-family:'Arial Black', Gadget, sans-serif;
+  z-index:2;
+}
+
+.detailp1{
+ max-width: 300px;
+ max-height: 300px;
+ margin-top: 50px;
+ margin-left: 105px;
+}
+
+.descriptiond{
+  font-family:'Arial Black', Gadget, sans-serif;
+  font-size:10px;
+  color:white;
+  margin-top: 40px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.topicd1{
+  font-family:'Arial Black', Gadget, sans-serif;
+  ont-size: 40px;
+  color:#FC6E00;
+  margin-top: 40px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.detail2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:#1E1E1E;
+  border-radius: 60px;
+  width: 300px;
+  height: 700px;
+  position:absolute;
+  top:10px; 
+  left:1000px;
+  font-family:'Arial Black', Gadget, sans-serif;
+}
+
+.detailp2{
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 50px;
+  margin-left: 50px;
+ }
+
+
+.topicd2{
+  font-family:'Arial Black', Gadget, sans-serif;
+  ont-size: 40px;
+  color:#FC6E00;
+  margin-top: 380px;
+  margin-left: 10px;
+  text-align: center;
+  z-index:1;
+}
+
+.productpage button{
+  font-family:'Arial Black', Gadget, sans-serif;
+  color :#FC6E00;
+  background-color: #1E1E1E;
+  font-size: 10px;
+  letter-spacing: 5px;
+  padding: 20px 40px;
+  border-radius: 14px;
+  position:absolute;
+  top:740px; 
+  left:1085px;
+
+  
 }
 
