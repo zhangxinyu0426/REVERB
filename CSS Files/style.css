@@ -171,9 +171,9 @@ nav > div > img{
     border-radius: 60px;
     width: 280px;
     height: 580px;
-    margin: auto;
     position:relative;
     font-family:'Arial Black', Gadget, sans-serif;
+    margin: 10px;
   }
 
   .like{
@@ -246,24 +246,21 @@ nav > div > img{
     background-color:#000000;
     border-radius: 60px;
     width: 280px;
-    height: 450px;
-    margin: auto;
+    height: 470px;
+    margin: 10px;
+
     position:relative;
     font-family:'Arial Black', Gadget, sans-serif;
   }
 
-
   .guitar2{
-    max-width: 300px;
+    max-width: 270px;
     max-height: 270px;
     float: right;
-    padding-right: 40px;
+    padding-right: 20px;
     padding-top: 40px;
     position: relative;
   }
-
-
-
 
   .card2 button {
     font-family:'Arial Black', Gadget, sans-serif;
@@ -281,10 +278,81 @@ nav > div > img{
 
 
 
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#000000;
+    border-radius: 60px;
+    width: 280px;
+    height: 330px;
+    position:relative;
+    font-family:'Arial Black', Gadget, sans-serif;
+    margin: 10px;
+  }
+
+  .Picks{
+    max-width: 130px;
+    max-height: 130px;
+    float: right;
+    padding-right: 20px;
+    padding-top: 40px;
+    position: relative;
+  }
+
+  .card3 button {
+    font-family:'Arial Black', Gadget, sans-serif;
+    color :white;
+    background-image:linear-gradient(rgba(254,165,0,1) 0%, rgba(255,111,0,1) 100%);
+    font-size: 13px;
+    padding: 14px 40px;
+    border-radius: 14px;
+    transition-duration: 0.3s;
+    position: relative;
+    top: 50px;
+    left: 56px; 
+  }
+
+
+  .card4{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#000000;
+    border-radius: 60px;
+    width: 280px;
+    height: 550px;
+    position:relative;
+    font-family:'Arial Black', Gadget, sans-serif;
+    margin: 10px;
+  }
+
+  .guitar3{
+    max-width: 350px;
+    max-height: 350px;
+    float: right;
+    padding-right: 20px;
+    padding-top: 40px;
+    position: relative;
+  }
+
+  .card4 button {
+    font-family:'Arial Black', Gadget, sans-serif;
+    color :white;
+    background-image:linear-gradient(rgba(254,165,0,1) 0%, rgba(255,111,0,1) 100%);
+    font-size: 13px;
+    padding: 14px 40px;
+    border-radius: 14px;
+    transition-duration: 0.3s;
+    position: relative;
+    top: 50px;
+    left: 56px; 
+  }
+
 
 
 
 .productlist{
-
     display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+    
+    
 }
