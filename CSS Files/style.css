@@ -141,19 +141,6 @@ nav > div > img{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .products {
     display: flex;
     flex-wrap: wrap;
@@ -172,3 +159,132 @@ nav > div > img{
       margin-right: 50px;
       margin-left: 50px;
   }
+
+
+
+
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#000000;
+    border-radius: 60px;
+    width: 280px;
+    height: 580px;
+    margin: auto;
+    position:relative;
+    font-family:'Arial Black', Gadget, sans-serif;
+  }
+
+  .like{
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: top;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .namelist{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+
+  }
+
+  .pricelist{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+  }
+
+  .description{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 40px;
+    color:#FC6E00;
+    position: absolute;
+    transform-origin: top right;
+    right:0;
+    top:0;
+    transform: rotate(-90deg) translateY(-100%);
+
+  }
+
+  .guitar1{
+    max-width: 570px;
+    max-height: 570px;
+    float: right;
+    padding-right: 40px;
+    padding-top: 40px;
+    position: relative;
+  }
+
+
+  .card button {
+    font-family:'Arial Black', Gadget, sans-serif;
+    color :white;
+    background-image:linear-gradient(rgba(254,165,0,1) 0%, rgba(255,111,0,1) 100%);
+    font-size: 3px;
+    padding: 10px 30px;
+    border-radius: 14px;
+    transition-duration: 0.3s;
+    position: relative;
+    top: 50px;
+    left: 68px;
+    
+  }
+
+
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#000000;
+    border-radius: 60px;
+    width: 280px;
+    height: 580px;
+    margin: auto;
+    position:relative;
+    font-family:'Arial Black', Gadget, sans-serif;
+  }
+
+
+  .guitar2{
+    max-width: 270px;
+    max-height: 270px;
+    float: right;
+    padding-right: 40px;
+    padding-top: 40px;
+    position: relative;
+  }
+
+
+
+
+  .card2 button {
+    font-family:'Arial Black', Gadget, sans-serif;
+    color :white;
+    background-image:linear-gradient(rgba(254,165,0,1) 0%, rgba(255,111,0,1) 100%);
+    font-size: 13px;
+    padding: 14px 40px;
+    border-radius: 14px;
+    transition-duration: 0.3s;
+    position: relative;
+    top: 50px;
+    left: 56px; 
+  }
+
+
+
+
+
+
+
+.productlist{
+
+    display: flex;
+}
