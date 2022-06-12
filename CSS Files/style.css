@@ -88,8 +88,6 @@ nav > div > img{
     max-height: 300px;
     position: relative;
     left:80px;
-
-    
 }
 
 
@@ -414,9 +412,9 @@ nav > div > img{
     padding: 10px 40px;
     border-radius: 14px;
     transition-duration: 0.3s;
-    position: relative;
+    position: absolute;
     top: 500px;
-    left: 128px;   
+    left: 100px;   
   }
 
   .cartlist{
@@ -552,13 +550,6 @@ nav > div > img{
   }
 
 
-
-
-
-
-
-
-
 .info {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color:#1E1E1E;
@@ -571,6 +562,10 @@ nav > div > img{
     font-family:'Arial Black', Gadget, sans-serif;
     z-index:2;
   }
+
+  .info:hover{
+    z-index: 10;
+   }
 
   .form{
     text-align: center;
@@ -619,6 +614,10 @@ nav > div > img{
     z-index:1;
   }
 
+  .confirmation:hover{
+    z-index: 10;
+   }
+
   .infotitle{
     font-family:'Arial Black', Gadget, sans-serif;
     font-size:40px;
@@ -649,7 +648,6 @@ nav > div > img{
     top: 650px;
     left: 200px;
     margin-right: 300px;
-    z-index: 1;
   }
 
   .button2{
@@ -662,7 +660,7 @@ nav > div > img{
     border-radius: 14px;
     position: absolute;
     top: 650px;
-    left: 300px;
+    left: 600px;
   }
 
 .checkoutpage{
@@ -748,6 +746,11 @@ nav > div > img{
   z-index:2;
 }
 
+.productspec:hover{
+ z-index: 10;
+}
+
+
 tr{
   color: white;
   line-height: 35px;
@@ -774,6 +777,10 @@ padding-left: 70px;
   z-index:1;
 
 }
+
+.reviews:hover{
+  z-index: 10;
+ }
 
 .infotitle{
   font-family:'Arial Black', Gadget, sans-serif;
@@ -849,6 +856,10 @@ padding-left: 70px;
   font-family:'Arial Black', Gadget, sans-serif;
 }
 
+.detail2:hover{
+  z-index: 10;
+ }
+
 .detailp2{
   max-width: 200px;
   max-height: 200px;
@@ -878,7 +889,5 @@ padding-left: 70px;
   position:absolute;
   top:740px; 
   left:1085px;
-
-  
 }
 
