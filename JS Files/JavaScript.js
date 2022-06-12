@@ -16,3 +16,5 @@ function focusproductpic() {
     document.getElementById('productspec').style.zIndex = 1;
   }
 
+  
+
