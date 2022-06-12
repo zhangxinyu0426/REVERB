@@ -9,14 +9,22 @@ nav > h1{
     font-size: 58px; 
 }
 
+
 nav > img{ 
     width: 58px;
     padding: 5px;
 }
 
-nav > div{ 
-    
+.imglink{    
+  width: 58px;
+  padding: 5px;
 }
+
+nav > a{ 
+  width: 58px;
+  padding: 5px;
+}
+
 
 nav > div > img{  
     width: 58px;
@@ -790,8 +798,6 @@ padding-left: 70px;
 .productpage{
   position: absolute;
 }
-
-
 
 .detail1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
