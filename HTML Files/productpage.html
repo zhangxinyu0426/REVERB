@@ -7,25 +7,29 @@
     <title>Reverb</title>
     <link rel="stylesheet" href="/CSS Files/style.css">
     <link rel="stylesheet" href="/CSS Files/color.css">
+    <script src="/JS Files/JavaScript.js"></script>
 </head>
 
 
 <body>
+  <script src="/JS Files/JavaScript.js"></script>
 
-    <nav class="navigation">
-        <img src="/image/cartblack.png">
-        <h1>REVERB.</h1>
-        <div>
-          <img src="/image/search.png">
-          <img src="/image/menu.png">
-        </div>
-      </nav>
+  <nav class="navigation">
+    <a  href="/HTML Files/cart.html">
+      <img class="imglink" src="/image/cartblack.png">
+    </a>
+      <h1>REVERB.</h1>
+      <div>
+        <img src="/image/search.png">
+        <img src="/image/menu.png">
+      </div>
+    </nav>
 
 
 
       <div class="productpage">
 
-        <div class="productpic">
+        <div class="productpic" onclick="focusproductpic()">
           <img class="likep" src="/image/heart.png">
           <img class="fenderproduct" src="/image/fenderproduct.png" >
           <h1 class="namep">Fender <br/> Player Series Duo-Sonic</h1>
@@ -35,7 +39,7 @@
           </div>
   
   
-          <div class="productspec">
+          <div class="productspec" onclick="focusproductpic()">
 
             <table class="spectable">
 
@@ -108,12 +112,12 @@
             </tr>
             </table>
 
-            <p class="checkouttitle">PRODUCT SPECS.</p>
+            <p class="checkouttitle" >PRODUCT SPECS.</p>
     
           </div>
   
   
-          <div class="reviews">
+          <div class="reviews" onclick="focusreviews()">
 
           <div class="infodetail">
             <h1 class="infotitle">USER 1</h1>
@@ -146,7 +150,11 @@
               <h2 class="topicd2">SEALED TUNERS</h2>
               </div>  
               
+              <a  href="/HTML Files/cart.html">
               <button class="button">CART</button>
+              </a>
+
+              
               
 
 
