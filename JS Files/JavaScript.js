@@ -7,5 +7,7 @@
     document.getElementById('info').style.zIndex = 10;
   }
 
-  
-
+  function getInput() {
+    var input = document.getElementById("forminput").value;
+    alert(input);
+}
